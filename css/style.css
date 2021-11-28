@@ -1,0 +1,102 @@
+/* [Optional CSS]
+===================================================>  */
+:root {
+    --main-color: #f9f4f4;
+}
+
+/* [Banner CSS]
+===================================================>  */
+.banner-header{
+	text-align:center;
+	color:#343a40;
+	padding-top:20px;
+	margin-bottom:80px
+}
+img.banner-profile {
+	width: 100%;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.banner-detail{
+	margin-top:20px;
+	text-align:center
+}
+.banner-detail h2{
+	font-size:33px;
+	margin-bottom:35px;
+	color:#343a40
+}
+.banner-detail ul.banner-list {
+	list-style: none;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.banner-detail ul.banner-list li {
+	font-size: 23px;
+	position: relative;
+	color: #000;
+}
+.banner-detail ul.banner-list li::before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: rgb(255, 199, 0);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-left: -18px;
+}
+.banner-detail .main-btn{
+	font-size:18px;
+	margin-top:50px
+}
+.main-btn:focus{
+	box-shadow:none !important
+}
+
+/* [Theme CSS]
+===================================================>  */
+#theme-detail h2{
+	text-align:center;
+	font-size:50px;
+	margin:30px 0 70px 0;
+	text-transform:uppercase
+}
+#theme-detail .theme-item{
+	margin-bottom:100px
+}
+.theme h1 {
+	font-size: 60px;
+}
+.theme h5 {
+	font-size: 30px;
+}
+.theme p {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/* [Footer CSS]
+===================================================>  */
+footer{
+	text-align:center;
+	background:var(--main-color);
+	padding:15px;
+	margin-top:60px
+}
+footer p{
+	margin-bottom:0
+}
